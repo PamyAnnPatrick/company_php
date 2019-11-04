@@ -1,0 +1,317 @@
+/* the styles for the HTML elements */
+html {
+    background:white;
+}
+body {
+    font-family:Helvetica Neue, Helvetica, sans-serif;
+    color: #093f56;
+    width: 75%;
+    min-height: 600px;
+    margin: 0 auto;
+    /*padding: 0 2em;*/
+    background: rgb(61,147,146); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(61,147,146,1) 0%, rgba(241,241,241,1) 30%, rgba(241,241,241,1) 30%, rgba(66,162,184,1) 64%, rgba(246,246,246,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(61,147,146,1) 0%,rgba(241,241,241,1) 30%,rgba(241,241,241,1) 30%,rgba(66,162,184,1) 64%,rgba(246,246,246,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(61,147,146,1) 0%,rgba(241,241,241,1) 30%,rgba(241,241,241,1) 30%,rgba(66,162,184,1) 64%,rgba(246,246,246,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    border-radius: 8px;
+    border: 1px solid transparent;
+    box-shadow: 2px 2px 4px #20242C;
+}
+header {
+    width: 100%;
+    height:150px;
+    border-bottom: 0px solid black;
+    margin-top: 0;
+    padding: .5em 0;
+    background: url(images/header.jpg), -webkit-linear-gradient(#475161,#2B313B) no-repeat, #2B313B;
+    text-align: center;
+}
+header h1 {
+    color: maroon;
+    text-align: center;
+    font-size: 250%;
+}
+main {
+min-height: 450px;
+}
+aside {
+    float: left;
+    width: 150px;
+}
+section {
+    float: left;
+}
+footer {
+    clear: both;
+    border-top: 2px solid black;
+}
+footer p {
+    text-align: right;
+    padding-right: 15px;
+    font-size: 80%;
+}
+h1 {
+    font-size: 150%;
+    margin: .5em 0;
+}
+h2 {
+    font-size: 120%;
+    margin: .25em 0 .5em;
+}
+h1, h2 {
+    color: maroon;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    padding-bottom: 1em;
+}
+li {
+    padding-bottom: 0.5em;
+}
+a {
+    color: #093f56;
+    font-weight: bold;
+}
+a:hover {
+    color: rgb(0,0,0);
+}
+br {
+    clear: left;
+}
+.maintable {
+    border: 2px solid #0C709A;
+    border-collapse: collapse;
+    margin: 1em;
+}
+.maintable td {
+    border: 2px solid #0C709A;
+    padding: .2em .5em .2em .5em;
+    text-align: left;
+}
+.maintable th {
+    border: 2px solid #0C709A;
+    padding: .2em .5em .2em .5em;
+    text-align: center;
+}
+
+.form-background{
+    border: 2px solid whitesmoke ;
+    border-radius: 5px;
+    padding: 5px;
+}
+.inputtxt{
+width: 230px;
+    height: 30px;
+    background: transparent;
+    color: whitesmoke;
+    font-size: 15px;
+}
+/* the styles for classes */
+.right {
+    text-align: right;
+}
+.first_paragraph {
+    margin-top: 0;	
+}
+.last_paragraph {
+    margin-bottom: 2em;	
+}
+.last_paragraph a{
+    color:whitesmoke;
+    font-weight: bold;
+    text-shadow: 1px 1px #0A6F9A;
+    text-decoration: none;
+    border-radius: 3px;
+    background: #093f56;
+    padding: 2px;
+    margin: 2px;
+}
+/* the styles for the div tags that divide the page into sections */
+#left_column {
+    float: left;
+    width: 150px;
+    text-align: center;
+}
+#right_column {
+    float: left;
+    padding-left: 1em;
+    padding-bottom: 2em;
+}
+/* Additional styles for the Product Manager application */
+#add_product_form {
+    margin: .5em 0;
+}
+#add_product_form label {
+    width: 6em;
+    padding-right: 1em;
+    padding-bottom: .5em;
+    float: left;
+}
+#add_product_form input {
+    float: left;
+}
+#add_product_form input[text] {
+    width: 15em;
+}
+.home-section{
+    float: left;
+    width:45%;
+    padding: 5px 5px 15px 5px;
+    color: #093f56;
+    margin:1% ;
+    background:transparent;
+    border: 1px solid #0A6F9A;
+    border-radius: 20px;
+}
+.home-section a{
+    color: white;
+    margin: 30%;
+    text-decoration: none;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    background: #0A6F9A;
+    padding: 1%;
+}
+.home-section a:hover{
+    color: antiquewhite;
+    margin: 30%;
+    text-decoration: none;
+    font-size: 110%;
+}
+.home-section h2{
+    text-align: center;
+}
+.HomeDiv{
+    width: 20%;
+    height: 10%;
+    margin: 0 auto;
+}
+
+.back{
+    margin: 0 auto;
+    text-decoration: none;
+    font-size: 150%;
+}
+
+.form-background {
+    font: normal .8em/1em Arial, Helvetica, Geneva, sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 500px;
+    background:#3DA6BB;
+     padding: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+
+
+    -webkit-box-shadow: 10px 10px 20px #20242C;
+    -moz-box-shadow: 10px 10px 20px #20242C;
+    box-shadow: 10px 10px 20px #20242C;
+}
+
+.form-background legend {
+    display: none;
+}
+.form-background .inputtxt {
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.form-background button {
+    width: 100px;
+    width: 20%;
+    min-width: 100px;
+    height: 24px;
+    float: right;
+    padding: 0;
+    margin-right: 10px;
+    margin-top: 5px;
+    border: 0;
+    color:#FFF;
+    font-weight: bold;
+    cursor: pointer;
+
+    background: #466E82;
+    background: url(images/arrows.png) no-repeat right top, #466E82;
+    background: url(images/arrows.png) no-repeat right top, -webkit-linear-gradient(#466E82,#2C4552);
+    background: url(images/arrows.png) no-repeat right top, -moz-linear-gradient(#466E82,#2C4552);
+    background: url(images/arrows.png) no-repeat right top, -ms-linear-gradient(#466E82,#2C4552);
+    background: url(images/arrows.png) no-repeat right top, -o-linear-gradient(#466E82,#2C4552);
+    background: url(images/arrows.png) no-repeat right top, linear-gradient(#466E82,#2C4552);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#466E82', endColorstr='#2C4552',GradientType=0 );
+
+
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.form-background button:hover {
+    background: url(images/arrows.png) no-repeat right top, #93481A;
+    background: url(images/arrows.png) no-repeat right top, -webkit-linear-gradient(#93481A,#6D2F0E);
+    background: url(images/arrows.png) no-repeat right top, -moz-linear-gradient(#93481A,#6D2F0E);
+    background: url(images/arrows.png) no-repeat right top, -ms-linear-gradient(#93481A,#6D2F0E);
+    background: url(images/arrows.png) no-repeat right top, -o-linear-gradient(#93481A,#6D2F0E);
+    background: url(images/arrows.png) no-repeat right top, linear-gradient(#93481A,#6D2F0E);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#93481A', endColorstr='#6D2F0E',GradientType=0 );
+}
+.hint {
+    font-weight: normal;
+    color: #000000;
+    margin-left: 10px;
+}
+.shadow{
+    text-shadow: 2px 2px #0A6F9A;
+}
+
+.subtable tr{
+    height: 42px;
+}
+.subtable select {
+    width: 250px;
+    width: 50%;
+    height: 30px;
+    min-width: 200px;
+    color: black;
+    font-weight: bold;
+    border: 0;
+background: whitesmoke;
+    /*background: #093f56;
+    background: -webkit-linear-gradient(#93481A,#6D2F0E);
+    background: -moz-linear-gradient(#93481A,#6D2F0E);
+    background: -o-linear-gradient(#93481A,#6D2F0E);
+    background: -ms-linear-gradient(#93481A,#6D2F0E);
+    background: linear-gradient(#93481A,#6D2F0E);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#93481A', endColorstr='#6D2F0E',GradientType=0 );*/
+
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+.subtable label{
+    color: black;
+    font-weight: bold;
+}
+.subtable input{
+    background: white;
+    font-weight: bold;
+    color:black;
+}
+.button{
+    color:whitesmoke !important;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 20px;
+    background: #093f56 !important;
+    text-align: center;
+    padding: 2px 7px;
+    cursor: pointer;
+}
+.error{
+    color: red;
+    padding: 20px;
+}
